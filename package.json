@@ -1,0 +1,44 @@
+{
+  "name": "miragon-modeler-collection",
+  "displayName": "Miragon Modeler Collection",
+  "description": "Model-based design in VS Code — BPMN, Team Topologies, Wardley Maps and Domain Storytelling in a single install.",
+  "version": "0.1.0",
+  "publisher": "miragon-gmbh",
+  "license": "MIT",
+  "icon": "assets/icon.png",
+  "engines": {
+    "vscode": "^1.96.0"
+  },
+  "categories": [
+    "Extension Packs",
+    "Visualization"
+  ],
+  "keywords": [
+    "bpmn",
+    "wardley maps",
+    "team topologies",
+    "domain storytelling",
+    "modeling",
+    "architecture",
+    "miragon",
+    "miranum"
+  ],
+  "galleryBanner": {
+    "color": "#1A2A3A",
+    "theme": "dark"
+  },
+  "homepage": "https://www.miragon.io",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Miragon/vscode-modeler-collection.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Miragon/vscode-modeler-collection/issues"
+  },
+  "extensionPack": [
+    "miragon-gmbh.vs-code-bpmn-modeler",
+    "miragon-gmbh.team-topologies-modeler",
+    "miragon-gmbh.wardley-mapping-modeler",
+    "miragon-gmbh.egon-vscode-extension"
+  ]
+}

@@ -1,0 +1,3 @@
+.claude/logs/
+node_modules/
+*.vsix
