@@ -1,6 +1,6 @@
 name: Dependabot auto-merge
 
-# - Auto-merges Dependabot minor + patch updates once the required `ci` check is green (majors stay for a human).
+# - Auto-merges Dependabot minor + patch updates once the required `ci` check is green.
 # - Is a workflow because dependabot.yml has no auto-merge setting.
 # - More: https://docs.github.com/en/code-security/dependabot/working-with-dependabot/automating-dependabot-with-github-actions
 
