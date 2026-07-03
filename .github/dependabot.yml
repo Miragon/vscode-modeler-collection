@@ -7,6 +7,14 @@ updates:
     labels:
       - 'dependencies'
     open-pull-requests-limit: 5
+    # Conventional-commit title so the PR-title lint passes and auto-merge can proceed.
+    commit-message:
+      prefix: 'chore'
     groups:
-      github-actions:
+      # Minor + patch bundled into one PR that auto-merges once CI is green.
+      # Majors come as separate PRs and are left for a human to review.
+      github-actions-minor-patch:
         patterns: ['*']
+        update-types:
+          - 'minor'
+          - 'patch'
