@@ -9,6 +9,9 @@
   "engines": {
     "vscode": "^1.96.0"
   },
+  "scripts": {
+    "ci": "node scripts/verify-extension-pack.mjs"
+  },
   "categories": [
     "Extension Packs",
     "Visualization"

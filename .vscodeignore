@@ -7,6 +7,9 @@ CONTRIBUTING.md
 release-please-config.json
 .release-please-manifest.json
 
+# Repo tooling — not part of the published extension
+scripts/**
+
 # Local/agent working files — never ship these to the Marketplace
 .claude/**
 .context/**
