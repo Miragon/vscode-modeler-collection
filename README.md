@@ -25,7 +25,7 @@ Ordered top down, from the broad strategic lens to the concrete domain.
 - **Egon.io (Domain Story Modeler)**.
   Capture domain stories to understand a business domain in the language of the people who live it.
   [Marketplace](https://marketplace.visualstudio.com/items?itemName=miragon-gmbh.egon-vscode-extension) ·
-  [GitHub](https://github.com/Miragon/vs-code-egon-plugin)
+  [GitHub](https://github.com/Miragon/egon.io)
 
 ## Why a collection?
 
