@@ -2,7 +2,7 @@
 
 **Model-based design in VS Code. BPMN, Team Topologies, Wardley Maps and Domain Storytelling in a single install.**
 
-[![VS Code Marketplace](https://img.shields.io/visual-studio-marketplace/v/miragon-gmbh.miragon-modeler-collection?label=VS%20Code%20Marketplace&logo=visualstudiocode)](https://marketplace.visualstudio.com/items?itemName=miragon-gmbh.miragon-modeler-collection)
+[![VS Code Marketplace](https://badgen.net/vs-marketplace/v/miragon-gmbh.miragon-modeler-collection?label=VS%20Code%20Marketplace&icon=visualstudio)](https://marketplace.visualstudio.com/items?itemName=miragon-gmbh.miragon-modeler-collection)
 [![Open VSX](https://img.shields.io/open-vsx/v/miragon-gmbh/miragon-modeler-collection?label=Open%20VSX&logo=eclipseide)](https://open-vsx.org/extension/miragon-gmbh/miragon-modeler-collection)
 
 This is an [Extension Pack](https://code.visualstudio.com/api/references/extension-manifest#extension-packs):
