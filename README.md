@@ -10,22 +10,12 @@ so you can move between process, organization, strategy and domain diagrams with
 
 Ordered top down, from the broad strategic lens to the concrete domain.
 
-- **Wardley Mapping Modeler**.
-  Build Wardley Maps to reason about strategy along the value chain and evolution axis.
-  [Marketplace](https://marketplace.visualstudio.com/items?itemName=miragon-gmbh.wardley-mapping-modeler) ·
-  [GitHub](https://github.com/Miragon/wardley-maps-modeler)
-- **Team Topologies Modeler**.
-  Map team types and interaction modes to visualize and evolve your organization.
-  [Marketplace](https://marketplace.visualstudio.com/items?itemName=miragon-gmbh.team-topologies-modeler) ·
-  [GitHub](https://github.com/Miragon/team-topologies-modeler)
-- **BPMN Modeler**.
-  Design and edit BPMN 2.0 process diagrams as a native VS Code custom editor.
-  [Marketplace](https://marketplace.visualstudio.com/items?itemName=miragon-gmbh.vs-code-bpmn-modeler) ·
-  [GitHub](https://github.com/Miragon/bpmn-modeler)
-- **Egon.io (Domain Story Modeler)**.
-  Capture domain stories to understand a business domain in the language of the people who live it.
-  [Marketplace](https://marketplace.visualstudio.com/items?itemName=miragon-gmbh.egon-vscode-extension) ·
-  [GitHub](https://github.com/Miragon/egon.io)
+| Modeler | What it's for | Marketplace | GitHub |
+| --- | --- | --- | --- |
+| **Wardley Mapping Modeler** | Reason about strategy along the value chain and evolution axis. | [Install](https://marketplace.visualstudio.com/items?itemName=miragon-gmbh.wardley-mapping-modeler) | [Repo](https://github.com/Miragon/wardley-maps-modeler) |
+| **Team Topologies Modeler** | Map team types and interaction modes to evolve your organization. | [Install](https://marketplace.visualstudio.com/items?itemName=miragon-gmbh.team-topologies-modeler) | [Repo](https://github.com/Miragon/team-topologies-modeler) |
+| **BPMN Modeler** | Design and edit BPMN 2.0 process diagrams as a native custom editor. | [Install](https://marketplace.visualstudio.com/items?itemName=miragon-gmbh.vs-code-bpmn-modeler) | [Repo](https://github.com/Miragon/bpmn-modeler) |
+| **Egon.io (Domain Story Modeler)** | Capture domain stories in the language of the people who live the domain. | [Install](https://marketplace.visualstudio.com/items?itemName=miragon-gmbh.egon-vscode-extension) | [Repo](https://github.com/Miragon/egon.io) |
 
 ## Why a collection?
 
