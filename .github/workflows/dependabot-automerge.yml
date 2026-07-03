@@ -1,8 +1,15 @@
 name: Dependabot auto-merge
 
 # Auto-merges Dependabot PRs for minor + patch GitHub Actions updates.
-# GitHub's auto-merge waits until the required status checks (ci, PR Title) pass,
-# so nothing lands on a red pipeline. Majors are left for a human to review.
+#
+# Why a workflow and not a dependabot.yml setting? Dependabot's config (version 2)
+# has no auto-merge option — GitHub's documented way to auto-merge Dependabot PRs is
+# this Actions recipe (dependabot/fetch-metadata + `gh pr merge --auto`). See:
+#   https://docs.github.com/en/code-security/dependabot/working-with-dependabot/automating-dependabot-with-github-actions
+#
+# `gh pr merge --auto` only enables GitHub auto-merge; the required `ci` status check
+# must go green before the PR actually merges, so nothing lands on a red pipeline.
+# Majors arrive as separate PRs (see dependabot.yml) and are left for a human.
 
 on: pull_request
 
