@@ -1,0 +1,46 @@
+# Miragon Modeler Collection
+
+**Model-based design in VS Code. BPMN, Team Topologies, Wardley Maps and Domain Storytelling in a single install.**
+
+This is an [Extension Pack](https://code.visualstudio.com/api/references/extension-manifest#extension-packs):
+one click installs the whole Miragon modeler family,
+so you can move between process, organization, strategy and domain diagrams without leaving your editor.
+
+## What's inside
+
+Ordered top down, from the broad strategic lens to the concrete domain.
+
+| Modeler | What it's for | Marketplace | Open VSX | Source |
+| --- | --- | --- | --- | --- |
+| **Wardley Mapping Modeler** | Reason about strategy along the value chain and evolution axis. | [Install](https://marketplace.visualstudio.com/items?itemName=miragon-gmbh.wardley-mapping-modeler) | [Install](https://open-vsx.org/extension/miragon-gmbh/wardley-mapping-modeler) | [Repo](https://github.com/Miragon/wardley-maps-modeler) |
+| **Team Topologies Modeler** | Map team types and interaction modes to evolve your organization. | [Install](https://marketplace.visualstudio.com/items?itemName=miragon-gmbh.team-topologies-modeler) | _coming soon_ | [Repo](https://github.com/Miragon/team-topologies-modeler) |
+| **BPMN Modeler** | Design and edit BPMN 2.0 process diagrams as a native custom editor. | [Install](https://marketplace.visualstudio.com/items?itemName=miragon-gmbh.vs-code-bpmn-modeler) | [Install](https://open-vsx.org/extension/miragon-gmbh/vs-code-bpmn-modeler) | [Repo](https://github.com/Miragon/bpmn-modeler) |
+| **Egon.io (Domain Story Modeler)** | Capture domain stories in the language of the people who live the domain. | [Install](https://marketplace.visualstudio.com/items?itemName=miragon-gmbh.egon-vscode-extension) | _coming soon_ | [Repo](https://github.com/Miragon/egon.io) |
+
+> **Registry availability.**
+> All four modelers are on the VS Code Marketplace.
+> On Open VSX (VSCodium, Cursor, Gitpod, and other non-Microsoft editors) two are available today and two are on the way.
+> Until then, installing the pack from Open VSX pulls in the modelers that are published there and skips the rest —
+> the missing ones install automatically once they land. Full 1:1 parity across both registries is the goal.
+
+## Why a collection?
+
+Each modeler is a different lens on the same system,
+and they're strongest together:
+
+- **Strategy**. Where to invest and how components evolve (Wardley Maps).
+- **Organization**. Who does the work and how teams interact (Team Topologies).
+- **Process**. How work flows (BPMN).
+- **Domain**. What the business actually does, told as stories (Egon.io).
+
+Installing them as a set means the whole toolkit is one command away when you switch perspectives.
+
+## Standalone by design
+
+Every modeler is also installable on its own and ships on its **own release cycle**.
+This pack simply bundles the current family for convenience.
+Install only what you need, or take the set.
+
+---
+
+Made by [Miragon](https://www.miragon.io).

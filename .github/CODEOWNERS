@@ -1,0 +1,4 @@
+# Code owners for the whole repository.
+# GitHub auto-requests a review from these owners on every pull request.
+# See https://docs.github.com/articles/about-code-owners
+* @emaarco
