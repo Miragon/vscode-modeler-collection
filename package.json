@@ -2,7 +2,7 @@
   "name": "miragon-modeler-collection",
   "displayName": "Miragon Modeler Collection",
   "description": "Model-based design in VS Code — BPMN, Team Topologies, Wardley Maps and Domain Storytelling in a single install.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "publisher": "miragon-gmbh",
   "license": "MIT",
   "icon": "assets/icon.png",
@@ -56,29 +56,45 @@
             "id": "wardley",
             "title": "Strategy — Wardley Maps",
             "description": "Reason about the value chain and the evolution axis.\n[Open the Wardley Maps tutorial](command:workbench.action.openWalkthrough?%22miragon-gmbh.wardley-mapping-modeler%23getStarted%22)",
-            "media": { "markdown": "media/wardley.md" },
-            "completionEvents": ["onStepSelected"]
+            "media": {
+              "markdown": "media/wardley.md"
+            },
+            "completionEvents": [
+              "onStepSelected"
+            ]
           },
           {
             "id": "team-topologies",
             "title": "Organization — Team Topologies",
             "description": "Map team types and their interaction modes.\n[Open the Team Topologies tutorial](command:workbench.action.openWalkthrough?%22miragon-gmbh.team-topologies-modeler%23getStarted%22)",
-            "media": { "markdown": "media/team-topologies.md" },
-            "completionEvents": ["onStepSelected"]
+            "media": {
+              "markdown": "media/team-topologies.md"
+            },
+            "completionEvents": [
+              "onStepSelected"
+            ]
           },
           {
             "id": "bpmn",
             "title": "Process — BPMN",
             "description": "Design BPMN 2.0 process diagrams in a native editor.\n[Open the BPMN tutorial](command:workbench.action.openWalkthrough?%22miragon-gmbh.vs-code-bpmn-modeler%23getStarted%22)",
-            "media": { "markdown": "media/bpmn.md" },
-            "completionEvents": ["onStepSelected"]
+            "media": {
+              "markdown": "media/bpmn.md"
+            },
+            "completionEvents": [
+              "onStepSelected"
+            ]
           },
           {
             "id": "egon",
             "title": "Domain — Egon.io",
             "description": "Capture domain stories in the language of the domain.\n[Open the Egon.io tutorial](command:workbench.action.openWalkthrough?%22miragon-gmbh.egon-vscode-extension%23getStarted%22)",
-            "media": { "markdown": "media/egon.md" },
-            "completionEvents": ["onStepSelected"]
+            "media": {
+              "markdown": "media/egon.md"
+            },
+            "completionEvents": [
+              "onStepSelected"
+            ]
           }
         ]
       }
