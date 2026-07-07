@@ -4,6 +4,7 @@ Thanks for helping improve the **Miragon Modeler Collection**.
 This repository is a *codeless* VS Code Extension Pack:
 there is no application code, no build step, and no runtime dependencies.
 Just a `package.json` whose `extensionPack` array lists the bundled modelers,
+a small Get Started walkthrough (declarative manifest + markdown under `media/`),
 plus docs and release automation.
 
 ## Commit convention
@@ -43,17 +44,43 @@ If a new member requires a newer VS Code than the pack currently declares,
 bump `engines.vscode` in `package.json` to match.
 Otherwise `vsce package` (or installation) will fail.
 
+## The Get Started walkthrough
+
+The pack contributes a small **hub walkthrough** (`contributes.walkthroughs` in
+[`package.json`](package.json)) that VS Code surfaces on the *Get Started / Welcome* page.
+It is one step per modeler, and each step's action deep-links into that member's *own*
+walkthrough via the built-in `workbench.action.openWalkthrough` command.
+
+The link target follows a fixed convention: **`<marketplace-id>#getStarted`**,
+e.g. `miragon-gmbh.vs-code-bpmn-modeler#getStarted`.
+Use the **Marketplace id** (the one in `extensionPack`), not the member's repo folder name.
+The step markdown lives under [`media/`](media) and ships inside the VSIX.
+If a member ever renames its walkthrough id, update the matching link in `package.json`.
+
 ## Testing locally
 
-No install step is needed.
-Package the pack into a VSIX and install it:
+Two ways, fast to thorough:
+
+**1. Fast loop — the walkthrough UI (F5).**
+Open this folder in VS Code and press **F5**
+(uses [`.vscode/launch.json`](.vscode/launch.json), no build step — the pack is codeless).
+An **Extension Development Host** window opens with the pack loaded.
+There, run **Welcome: Open Walkthrough…** from the Command Palette
+and pick *Get Started with the Miragon Modeler Collection*.
+Press `Cmd+R` (`Ctrl+R`) in that window to reload after editing the manifest or media.
+Caveat: a step's "Open the … tutorial" button only resolves if that **member extension is
+installed in the dev host** — install the four members there to test the routing end to end.
+
+**2. Full install check — the VSIX.**
+Package the pack and install it in a clean VS Code:
 
 ```bash
-npx --yes @vscode/vsce package --no-dependencies -o miragon-modeler-collection.vsix
+npm run package
 ```
 
-Then in VS Code: **Extensions: Install from VSIX…** and select the generated file.
-All members listed in `extensionPack` should be pulled in.
+Then: **Extensions: Install from VSIX…** and select the generated file.
+All members listed in `extensionPack` should be pulled in,
+and the walkthrough should appear on the Get Started page with every deep-link resolving.
 You can also inspect the generated `extension.vsixmanifest` inside the VSIX
 and confirm it carries an `ExtensionPack` property with the expected IDs.
 
