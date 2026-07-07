@@ -10,6 +10,9 @@ release-please-config.json
 # Repo tooling — not part of the published extension
 scripts/**
 
+# Editor/dev config — the F5 launch config is for contributors, not the Marketplace
+.vscode/**
+
 # Local/agent working files — never ship these to the Marketplace
 .claude/**
 .context/**

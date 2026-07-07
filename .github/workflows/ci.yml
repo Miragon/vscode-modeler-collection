@@ -22,3 +22,5 @@ jobs:
           node-version: 24
       - name: Verify extensionPack members exist
         run: npm run ci
+      - name: Validate packaging (catches bad walkthrough media paths)
+        run: npm run package

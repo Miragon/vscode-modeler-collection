@@ -10,7 +10,8 @@
     "vscode": "^1.96.0"
   },
   "scripts": {
-    "ci": "node scripts/verify-extension-pack.mjs"
+    "ci": "node scripts/verify-extension-pack.mjs",
+    "package": "npx --yes @vscode/vsce package --no-dependencies -o miragon-modeler-collection.vsix"
   },
   "categories": [
     "Extension Packs",
@@ -43,5 +44,44 @@
     "miragon-gmbh.team-topologies-modeler",
     "miragon-gmbh.wardley-mapping-modeler",
     "miragon-gmbh.egon-vscode-extension"
-  ]
+  ],
+  "contributes": {
+    "walkthroughs": [
+      {
+        "id": "getStarted",
+        "title": "Get Started with the Miragon Modeler Collection",
+        "description": "Four modeling lenses on your system — strategy, organization, process and domain.",
+        "steps": [
+          {
+            "id": "wardley",
+            "title": "Strategy — Wardley Maps",
+            "description": "Reason about the value chain and the evolution axis.\n[Open the Wardley Maps tutorial](command:workbench.action.openWalkthrough?%22miragon-gmbh.wardley-mapping-modeler%23getStarted%22)",
+            "media": { "markdown": "media/wardley.md" },
+            "completionEvents": ["onStepSelected"]
+          },
+          {
+            "id": "team-topologies",
+            "title": "Organization — Team Topologies",
+            "description": "Map team types and their interaction modes.\n[Open the Team Topologies tutorial](command:workbench.action.openWalkthrough?%22miragon-gmbh.team-topologies-modeler%23getStarted%22)",
+            "media": { "markdown": "media/team-topologies.md" },
+            "completionEvents": ["onStepSelected"]
+          },
+          {
+            "id": "bpmn",
+            "title": "Process — BPMN",
+            "description": "Design BPMN 2.0 process diagrams in a native editor.\n[Open the BPMN tutorial](command:workbench.action.openWalkthrough?%22miragon-gmbh.vs-code-bpmn-modeler%23getStarted%22)",
+            "media": { "markdown": "media/bpmn.md" },
+            "completionEvents": ["onStepSelected"]
+          },
+          {
+            "id": "egon",
+            "title": "Domain — Egon.io",
+            "description": "Capture domain stories in the language of the domain.\n[Open the Egon.io tutorial](command:workbench.action.openWalkthrough?%22miragon-gmbh.egon-vscode-extension%23getStarted%22)",
+            "media": { "markdown": "media/egon.md" },
+            "completionEvents": ["onStepSelected"]
+          }
+        ]
+      }
+    ]
+  }
 }
