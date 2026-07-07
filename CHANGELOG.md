@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/Miragon/vscode-modeler-collection/compare/v1.0.0...v1.1.0) (2026-07-07)
+
+
+### Features
+
+* add Get Started walkthrough and local dev/test loop ([#9](https://github.com/Miragon/vscode-modeler-collection/issues/9)) ([01c345a](https://github.com/Miragon/vscode-modeler-collection/commit/01c345a0c40cf4a922fbb1ede35a1ad09489da01))
+
 ## 1.0.0 (2026-07-03)
 
 
