@@ -1,0 +1,15 @@
+"$schema" = "https://conductor.build/schemas/settings.repo.schema.json"
+
+[scripts]
+setup = "npm run ci"
+run_mode = "nonconcurrent"
+archive = "rm -f *.vsix"
+
+[scripts.run.verify]
+command = "npm run ci"
+default = true
+icon = "check-check"
+
+[scripts.run.package]
+command = "npm run package"
+icon = "package"
