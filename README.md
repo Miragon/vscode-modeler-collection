@@ -1,13 +1,13 @@
 # Miragon Modeler Collection
 
-**Model-based design in VS Code. BPMN, Team Topologies, Wardley Maps and Domain Storytelling in a single install.**
+**Model-based design in VS Code. BPMN, Team Topologies, Wardley Maps, Context Maps and Domain Storytelling in a single install.**
 
 [![VS Code Marketplace](https://badgen.net/vs-marketplace/v/miragon-gmbh.miragon-modeler-collection?label=VS%20Code%20Marketplace&icon=visualstudio)](https://marketplace.visualstudio.com/items?itemName=miragon-gmbh.miragon-modeler-collection)
 [![Open VSX](https://img.shields.io/open-vsx/v/miragon-gmbh/miragon-modeler-collection?label=Open%20VSX&logo=eclipseide)](https://open-vsx.org/extension/miragon-gmbh/miragon-modeler-collection)
 
 This is an [Extension Pack](https://code.visualstudio.com/api/references/extension-manifest#extension-packs):
 one click installs the whole Miragon modeler family,
-so you can move between process, organization, strategy and domain diagrams without leaving your editor.
+so you can move between process, organization, strategy, architecture and domain diagrams without leaving your editor.
 
 ## What's inside
 
@@ -17,6 +17,7 @@ Ordered top down, from the broad strategic lens to the concrete domain.
 | --- | --- | --- |--------------------------------------------------------------------------------| --- |
 | **Wardley Mapping Modeler** | Reason about strategy along the value chain and evolution axis. | [Install](https://marketplace.visualstudio.com/items?itemName=miragon-gmbh.wardley-mapping-modeler) | [Install](https://open-vsx.org/extension/miragon-gmbh/wardley-mapping-modeler) | [Repo](https://github.com/Miragon/wardley-maps-modeler) |
 | **Team Topologies Modeler** | Map team types and interaction modes to evolve your organization. | [Install](https://marketplace.visualstudio.com/items?itemName=miragon-gmbh.team-topologies-modeler) | [Install](https://open-vsx.org/extension/miragon-gmbh/team-topologies-modeler) | [Repo](https://github.com/Miragon/team-topologies-modeler) |
+| **Context Maps Modeler** | Cut the domain into bounded contexts and map their relationships (strategic DDD). | [Install](https://marketplace.visualstudio.com/items?itemName=miragon-gmbh.context-maps-modeler) | [Install](https://open-vsx.org/extension/miragon-gmbh/context-maps-modeler) | [Repo](https://github.com/Miragon/context-maps-modeler) |
 | **BPMN Modeler** | Design and edit BPMN 2.0 process diagrams as a native custom editor. | [Install](https://marketplace.visualstudio.com/items?itemName=miragon-gmbh.vs-code-bpmn-modeler) | [Install](https://open-vsx.org/extension/miragon-gmbh/vs-code-bpmn-modeler)    | [Repo](https://github.com/Miragon/bpmn-modeler) |
 | **Egon.io (Domain Story Modeler)** | Capture domain stories in the language of the people who live the domain. | [Install](https://marketplace.visualstudio.com/items?itemName=miragon-gmbh.egon-vscode-extension) | [Install](https://open-vsx.org/extension/miragon-gmbh/egon-vscode-extension)   | [Repo](https://github.com/Miragon/egon.io) |
 
@@ -27,6 +28,7 @@ and they're strongest together:
 
 - **Strategy**. Where to invest and how components evolve (Wardley Maps).
 - **Organization**. Who does the work and how teams interact (Team Topologies).
+- **Architecture**. Where the domain boundaries run and how contexts relate (Context Maps).
 - **Process**. How work flows (BPMN).
 - **Domain**. What the business actually does, told as stories (Egon.io).
 
