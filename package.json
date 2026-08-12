@@ -1,7 +1,7 @@
 {
   "name": "miragon-modeler-collection",
   "displayName": "Miragon Modeler Collection",
-  "description": "Model-based design in VS Code — BPMN, Team Topologies, Wardley Maps and Domain Storytelling in a single install.",
+  "description": "Model-based design in VS Code — BPMN, Team Topologies, Wardley Maps, Context Maps and Domain Storytelling in a single install.",
   "version": "1.1.0",
   "publisher": "miragon-gmbh",
   "license": "MIT",
@@ -21,6 +21,8 @@
     "bpmn",
     "wardley maps",
     "team topologies",
+    "context maps",
+    "ddd",
     "domain storytelling",
     "modeling",
     "architecture",
@@ -43,6 +45,7 @@
     "miragon-gmbh.vs-code-bpmn-modeler",
     "miragon-gmbh.team-topologies-modeler",
     "miragon-gmbh.wardley-mapping-modeler",
+    "miragon-gmbh.context-maps-modeler",
     "miragon-gmbh.egon-vscode-extension"
   ],
   "contributes": {
@@ -50,7 +53,7 @@
       {
         "id": "getStarted",
         "title": "Get Started with the Miragon Modeler Collection",
-        "description": "Four modeling lenses on your system — strategy, organization, process and domain.",
+        "description": "Five modeling lenses on your system — strategy, organization, architecture, process and domain.",
         "steps": [
           {
             "id": "wardley",
@@ -69,6 +72,17 @@
             "description": "Map team types and their interaction modes.\n[Open the Team Topologies tutorial](command:workbench.action.openWalkthrough?%22miragon-gmbh.team-topologies-modeler%23getStarted%22)",
             "media": {
               "markdown": "media/team-topologies.md"
+            },
+            "completionEvents": [
+              "onStepSelected"
+            ]
+          },
+          {
+            "id": "context-maps",
+            "title": "Architecture — Context Maps",
+            "description": "Cut the domain into bounded contexts and map their relationships.\n[Open the Context Maps tutorial](command:workbench.action.openWalkthrough?%22miragon-gmbh.context-maps-modeler%23getStarted%22)",
+            "media": {
+              "markdown": "media/context-maps.md"
             },
             "completionEvents": [
               "onStepSelected"
