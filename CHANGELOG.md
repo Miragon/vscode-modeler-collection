@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/Miragon/vscode-modeler-collection/compare/v1.1.0...v1.2.0) (2026-08-12)
+
+
+### Features
+
+* add Context Maps Modeler to the collection ([#14](https://github.com/Miragon/vscode-modeler-collection/issues/14)) ([ea80001](https://github.com/Miragon/vscode-modeler-collection/commit/ea80001277116a43618ec686f838967089c22ad4))
+
 ## [1.1.0](https://github.com/Miragon/vscode-modeler-collection/compare/v1.0.0...v1.1.0) (2026-07-07)
 
 
