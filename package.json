@@ -1,7 +1,7 @@
 {
   "name": "miragon-modeler-collection",
   "displayName": "Miragon Modeler Collection",
-  "description": "Model-based design in VS Code — BPMN, Team Topologies, Wardley Maps, Context Maps and Domain Storytelling in a single install.",
+  "description": "Model-based design in VS Code — BPMN, Team Topologies, Wardley Maps, Context Maps, Event Storming and Domain Storytelling in a single install.",
   "version": "1.2.0",
   "publisher": "miragon-gmbh",
   "license": "MIT",
@@ -23,6 +23,7 @@
     "team topologies",
     "context maps",
     "ddd",
+    "event storming",
     "domain storytelling",
     "modeling",
     "architecture",
@@ -46,6 +47,7 @@
     "miragon-gmbh.team-topologies-modeler",
     "miragon-gmbh.wardley-mapping-modeler",
     "miragon-gmbh.context-maps-modeler",
+    "miragon-gmbh.event-storming-modeler",
     "miragon-gmbh.egon-vscode-extension"
   ],
   "contributes": {
@@ -53,7 +55,7 @@
       {
         "id": "getStarted",
         "title": "Get Started with the Miragon Modeler Collection",
-        "description": "Five modeling lenses on your system — strategy, organization, architecture, process and domain.",
+        "description": "Six modeling lenses on your system — strategy, organization, architecture, process, discovery and domain.",
         "steps": [
           {
             "id": "wardley",
@@ -94,6 +96,17 @@
             "description": "Design BPMN 2.0 process diagrams in a native editor.\n[Open the BPMN tutorial](command:workbench.action.openWalkthrough?%22miragon-gmbh.vs-code-bpmn-modeler%23getStarted%22)",
             "media": {
               "markdown": "media/bpmn.md"
+            },
+            "completionEvents": [
+              "onStepSelected"
+            ]
+          },
+          {
+            "id": "event-storming",
+            "title": "Discovery — Event Storming",
+            "description": "Explore a domain as a timeline of domain events, commands and aggregates.\n[Open the Event Storming tutorial](command:workbench.action.openWalkthrough?%22miragon-gmbh.event-storming-modeler%23getStarted%22)",
+            "media": {
+              "markdown": "media/event-storming.md"
             },
             "completionEvents": [
               "onStepSelected"
