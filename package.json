@@ -2,7 +2,7 @@
   "name": "miragon-modeler-collection",
   "displayName": "Miragon Modeler Collection",
   "description": "Model-based design in VS Code — BPMN, Team Topologies, Wardley Maps, Context Maps, Event Storming and Domain Storytelling in a single install.",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "publisher": "miragon-gmbh",
   "license": "MIT",
   "icon": "assets/icon.png",

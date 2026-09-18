@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://github.com/Miragon/vscode-modeler-collection/compare/v1.2.0...v1.3.0) (2026-09-18)
+
+
+### Features
+
+* add Event Storming Modeler to the collection ([#16](https://github.com/Miragon/vscode-modeler-collection/issues/16)) ([cf11444](https://github.com/Miragon/vscode-modeler-collection/commit/cf114447bb692ba05678f89f8e5196e839d36aa9))
+
 ## [1.2.0](https://github.com/Miragon/vscode-modeler-collection/compare/v1.1.0...v1.2.0) (2026-08-12)
 
 
